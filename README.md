@@ -138,3 +138,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 - Dataset by [bhaveshmittal on Kaggle](https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset)
 - [EfficientNet paper](https://arxiv.org/abs/1905.11946) — Tan & Le, 2019
 - TensorFlow / Keras documentation
+# Skin-Cancer-Detection-
