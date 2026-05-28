@@ -1,0 +1,14 @@
+# Core deep learning
+tensorflow>=2.10.0
+keras>=2.10.0
+
+# Image processing
+opencv-python>=4.6.0
+Pillow>=9.0.0
+
+# Data & visualization
+numpy>=1.23.0
+matplotlib>=3.6.0
+
+# Kaggle dataset download
+kaggle>=1.5.12

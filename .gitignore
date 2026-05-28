@@ -1,0 +1,70 @@
+# ───────────────────────────
+# Dataset & large data files
+# ───────────────────────────
+*.zip
+*.tar.gz
+*.tar
+train/
+test/
+data/
+dataset/
+melanoma-cancer-dataset/
+
+# ───────────────────────────
+# Trained model files
+# ───────────────────────────
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.ckpt.*
+saved_model/
+
+# ───────────────────────────
+# Kaggle credentials
+# ───────────────────────────
+kaggle.json
+.kaggle/
+
+# ───────────────────────────
+# Python cache
+# ───────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ───────────────────────────
+# Virtual environments
+# ───────────────────────────
+venv/
+env/
+.env
+.venv/
+
+# ───────────────────────────
+# Jupyter Notebook checkpoints
+# ───────────────────────────
+.ipynb_checkpoints/
+
+# ───────────────────────────
+# OS files
+# ───────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ───────────────────────────
+# Logs & outputs
+# ───────────────────────────
+*.log
+logs/
+training_history.png
+
+# ───────────────────────────
+# IDEs
+# ───────────────────────────
+.vscode/
+.idea/
+*.swp
