@@ -32,11 +32,9 @@ melanoma-detection/
 
 | Layer | Details |
 |-------|---------|
-| Input | 180 × 180 × 3 (RGB) |
+| Input | 180 × 180 × 3 (RGB), raw 0–255 pixels (EfficientNet normalizes internally) |
 | Data Augmentation | RandomFlip, RandomRotation, RandomZoom |
-| Rescaling | Pixel values normalized to [0, 1] |
-| EfficientNetB6 | Pre-trained on ImageNet, frozen |
-| Flatten | Converts feature maps to 1D |
+| EfficientNetB6 | Pre-trained on ImageNet, frozen, global average pooling |
 | Dense + Dropout | 512 → 0.5 drop → 256 → 0.3 drop → 128 |
 | Output | Dense(1, sigmoid) — binary probability |
 
@@ -138,4 +136,3 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 - Dataset by [bhaveshmittal on Kaggle](https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset)
 - [EfficientNet paper](https://arxiv.org/abs/1905.11946) — Tan & Le, 2019
 - TensorFlow / Keras documentation
-# Skin-Cancer-Detection-
